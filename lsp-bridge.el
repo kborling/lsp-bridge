@@ -396,6 +396,7 @@ Then LSP-Bridge will start by gdb, please send new issue with `*lsp-bridge*' buf
   '(
     (("wxml") . "wxml-language-server")
     (("html") . "vscode-html-language-server")
+    (("component.html") . "angular")
     (("astro") . "astro-ls")
     (("typ") . "typst-lsp")
     )
@@ -493,7 +494,7 @@ Then LSP-Bridge will start by gdb, please send new issue with `*lsp-bridge*' buf
     (kotlin-mode .                                                               "kotlin-language-server")
     (verilog-mode .                                                              "verible")
     (vhdl-mode .                                                                 "vhdl-tool")
-    (svelte-mode .                                                               "svelteserver")    
+    (svelte-mode .                                                               "svelteserver")
     (fsharp-mode .                                                               "fsautocomplete")
     )
   "The lang server rule for file mode."
@@ -738,7 +739,7 @@ So we build this macro to restore postion after code format."
 (defun lsp-bridge-get-buffer-truename (&optional filename)
   (if (lsp-bridge-is-remote-file)
       lsp-bridge-remote-file-path
-    (file-truename (or filename 
+    (file-truename (or filename
                        (lsp-bridge-get-buffer-file-name-text)))))
 
 (defun lsp-bridge-get-match-buffer-by-remote-file (host path)

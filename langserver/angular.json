@@ -1,0 +1,13 @@
+{
+  "name": "angular",
+  "languageId": "angular",
+  "command": [
+    "ngserver",
+    "--stdio",
+    "--ngProbeLocations",
+    "",
+    "--tsProbeLocations",
+    ""
+  ],
+  "settings": {}
+}
