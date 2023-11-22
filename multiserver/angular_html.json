@@ -1,0 +1,21 @@
+{
+  "completion": "angular",
+  "completion_item_resolve": "angular",
+  "diagnostics": "angular",
+  "code_action": "angular",
+  "execute_command": "angular",
+  "find_define": "angular",
+  "find_type_define": "angular",
+  "find_implementation": "angular",
+  "find_references": "angular",
+  "peek_find_definition": "angular",
+  "peek_find_references": "angular",
+  "formatting": "angular",
+  "hover": "angular",
+  "signature_help": "angular",
+  "prepare_rename": "angular",
+  "rename": "angular",
+  "document_symbol": "angular",
+  "workspace_symbol": "angular",
+  "inlay_hint": "angular"
+}

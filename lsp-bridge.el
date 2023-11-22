@@ -388,6 +388,7 @@ Then LSP-Bridge will start by gdb, please send new issue with `*lsp-bridge*' buf
   '(
     (("vue")        . "volar_emmet")
     (("ts" "tsx")   . "typescript_eslint")
+    (("html")       . "angular_html")
     )
   "The multi lang server rule for file extension."
   :type 'cons)
@@ -395,8 +396,7 @@ Then LSP-Bridge will start by gdb, please send new issue with `*lsp-bridge*' buf
 (defcustom lsp-bridge-single-lang-server-extension-list
   '(
     (("wxml") . "wxml-language-server")
-    ;; (("html") . "vscode-html-language-server")
-    (("html") . "angular")
+    (("html") . "vscode-html-language-server")
     (("astro") . "astro-ls")
     (("typ") . "typst-lsp")
     )
