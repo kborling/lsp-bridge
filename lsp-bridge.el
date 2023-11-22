@@ -395,8 +395,8 @@ Then LSP-Bridge will start by gdb, please send new issue with `*lsp-bridge*' buf
 (defcustom lsp-bridge-single-lang-server-extension-list
   '(
     (("wxml") . "wxml-language-server")
-    (("html") . "vscode-html-language-server")
-    (("component.html") . "angular")
+    ;; (("html") . "vscode-html-language-server")
+    (("html") . "angular")
     (("astro") . "astro-ls")
     (("typ") . "typst-lsp")
     )

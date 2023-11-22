@@ -5,9 +5,9 @@
     "ngserver",
     "--stdio",
     "--ngProbeLocations",
-    "/usr/lib/node_modules",
+    "/usr/local/lib/node_modules",
     "--tsProbeLocations",
-    "/usr/lib/node_modules"
+    "/usr/local/lib/node_modules"
   ],
   "settings": {}
 }
